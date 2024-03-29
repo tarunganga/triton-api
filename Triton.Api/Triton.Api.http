@@ -1,0 +1,6 @@
+@Triton.Api_HostAddress = http://localhost:5155
+
+GET {{Triton.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
