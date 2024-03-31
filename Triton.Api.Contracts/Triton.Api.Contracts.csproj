@@ -1,14 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\Triton.Api.Contracts\Triton.Api.Contracts.csproj" />
-    <ProjectReference Include="..\Triton.Api.DataModel\Triton.Api.DataModel.csproj" />
-  </ItemGroup>
-
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Triton API Contracts</Title>
+    <Authors>Tarun Ganga</Authors>
+    <Company>Tarun Ganga</Company>
   </PropertyGroup>
 
 </Project>

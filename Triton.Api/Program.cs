@@ -1,4 +1,6 @@
 
+using Triton.Api.Business;
+
 namespace Triton.Api
 {
     public class Program
@@ -9,8 +11,9 @@ namespace Triton.Api
 
             // Add services to the container.
 
+            builder.Services.AddSingleton<IPurchaseOrderManager, PurchaseOrderManager>();
+
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 

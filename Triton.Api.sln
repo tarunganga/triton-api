@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triton.Api.Service", "Triton.Api\Triton.Api.Service.csproj", "{76BE8A2B-1293-4C7D-B819-DF875731480C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Triton.Api.Service", "Triton.Api\Triton.Api.Service.csproj", "{76BE8A2B-1293-4C7D-B819-DF875731480C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triton.Api.UnitTests", "Triton.Api.UnitTests\Triton.Api.UnitTests.csproj", "{FE629278-6C9F-4C58-8721-CA4CF9DF0291}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Triton.Api.UnitTests", "Triton.Api.UnitTests\Triton.Api.UnitTests.csproj", "{FE629278-6C9F-4C58-8721-CA4CF9DF0291}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triton.Api.DataModel", "Triton.Api.DataModel\Triton.Api.DataModel.csproj", "{A9404057-21BE-42BB-8AAC-8820198E46A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Triton.Api.DataModel", "Triton.Api.DataModel\Triton.Api.DataModel.csproj", "{A9404057-21BE-42BB-8AAC-8820198E46A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triton.Api.Business", "Triton.Api.Business\Triton.Api.Business.csproj", "{BD2EDA80-60C9-4E2D-B189-D59B1A2B710A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Triton.Api.Business", "Triton.Api.Business\Triton.Api.Business.csproj", "{BD2EDA80-60C9-4E2D-B189-D59B1A2B710A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triton.Api.Contracts", "Triton.Api.Contracts\Triton.Api.Contracts.csproj", "{829791FF-3DBA-4E70-9C9B-5608F53CD277}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{BD2EDA80-60C9-4E2D-B189-D59B1A2B710A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD2EDA80-60C9-4E2D-B189-D59B1A2B710A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD2EDA80-60C9-4E2D-B189-D59B1A2B710A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829791FF-3DBA-4E70-9C9B-5608F53CD277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829791FF-3DBA-4E70-9C9B-5608F53CD277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829791FF-3DBA-4E70-9C9B-5608F53CD277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829791FF-3DBA-4E70-9C9B-5608F53CD277}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

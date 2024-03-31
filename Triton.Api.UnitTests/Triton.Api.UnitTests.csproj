@@ -22,4 +22,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Triton.Api.Business\Triton.Api.Business.csproj" />
+    <ProjectReference Include="..\Triton.Api\Triton.Api.Service.csproj" />
+  </ItemGroup>
+
 </Project>
